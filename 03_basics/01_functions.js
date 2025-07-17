@@ -18,4 +18,29 @@ function loginUser(username){
     return `${username} just logged in.`
 }
 
-console.log(loginUser("Aman"));
+// console.log(loginUser("Aman"));
+
+// function calculateCartprice(num1){
+//     return num1
+// }
+// console.log(calculateCartprice(3));
+
+// function calculateCartprice(...num1){
+//     return num1
+// }
+// console.log(calculateCartprice(300, 200, 560));
+
+const user = {
+    name: "Aman",
+    price: 999
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.name} and price is ${anyObject.price}`);
+}
+
+// handleObject(user);
+handleObject({
+    user: "Reenu",
+    price: 100000
+})
